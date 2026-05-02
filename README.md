@@ -48,11 +48,13 @@ python main.py input_directory -m compress -t zip -o output_archive
 
 Разархивация:
 
-```python main.py archive.zip -m decompress -t zip -o output_directory
+```bash
+python main.py archive.zip -m decompress -t zip -o output_directory
 ```
 
 Архивация с паролем:
-```python main.py input_directory -m compress -t zip -sp True -o output_archive
+```bash
+python main.py input_directory -m compress -t zip -sp True -o output_archive
 ```
 
 ## Структура проекта
